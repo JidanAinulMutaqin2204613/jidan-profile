@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of a Senior Front-End Developer & Photographer. Explore my work in web development and visual storytelling.">
+    <title>Jidan | Front-End Developer & Photographer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:wght@700;900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">JIDAN.</a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#photography">Photography</a></li>
+                <li><a href="#programming">Programming</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <h2 class="greeting">Hello, I am</h2>
+            <h1 class="name">Jidan</h1>
+            <div class="roles-container">
+                <span class="role-text" id="role-typing"></span><span class="cursor">|</span>
+            </div>
+            <p class="bio">
+                Crafting digital experiences with precision and capturing the world through my lens.
+                I bridge the gap between creative design and technical implementation.
+            </p>
+            <div class="hero-btns">
+                <a href="#photography" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll Down</span>
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Photography Section -->
+    <section id="photography" class="section photography-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Photography</h2>
+                <p class="section-subtitle">A collection of moments captured in time.</p>
+            </div>
+
+            <div class="masonry-gallery" id="gallery">
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto1.jpeg" alt="FOTOGRAFI 1"
+                        loading="lazy">
+                    <div class="overlay">
+                        <h3>Urban Perspective</h3>
+                        <span>Street Photography</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto5.jpeg" alt="FOTOGRAFI 2"
+                        loading="lazy">
+                    <div class="overlay">
+                        <h3>Golden Hour</h3>
+                        <span>Landscape</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto6.jpeg" alt="FOTOGRAFI 3"
+                        loading="lazy">
+                    <div class="overlay">
+                        <h3>Minimalist View</h3>
+                        <span>Architectural</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto8.jpeg" alt="FOTOGRAFI 4"
+                        loading="lazy">
+                    <div class="overlay">
+                        <h3>Nature's Rhythm</h3>
+                        <span>Botanical</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto9.jpeg" alt="FOTOGRAFI 5"
+                        loading="lazy">
+                    <div class="overlay">
+                        <h3>Still Life</h3>
+                        <span>Conceptual</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto10.jpeg" alt="FOTOGRAFI 6"
+                        loading="lazy">
+                    <div class="overlay">
+                        <h3>Shadow Play</h3>
+                        <span>Abstract</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto2.jpeg" alt="FOTOGRAFI 7" loading="lazy">
+                    <div class="overlay">
+                        <h3>Vibrant Soul</h3>
+                        <span>Portrait</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto3.jpeg" alt="FOTOGRAFI 8" loading="lazy">
+                    <div class="overlay">
+                        <h3>City Lights</h3>
+                        <span>Night Photography</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto4.jpeg" alt="FOTOGRAFI 9" loading="lazy">
+                    <div class="overlay">
+                        <h3>Peaceful Escape</h3>
+                        <span>Travel</span>
+                    </div>
+                </div>
+                <div class="gallery-item">
+                    <img src="assets/images/fotografi/foto7.jpeg" alt="FOTOGRAFI 10"
+                        loading="lazy">
+                    <div class="overlay">
+                        <h3>Natural Glow</h3>
+                        <span>Outdoor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programming Section -->
+    <section id="programming" class="section programming-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Programming</h2>
+                <p class="section-subtitle">Turning ideas into interactive code.</p>
+            </div>
+
+            <div class="project-grid">
+                <!-- Project 1 -->
+                <div class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-tag">Web Application</div>
+                        <h3 class="card-title">Jie Laundry</h3>
+                        <p class="card-desc">Sistem manajemen toko laundry pakaian yang komprehensif, mencakup
+                            pengelolaan order, status cucian, dan laporan transaksi keuangan secara real-time.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span>Laravel</span>
+                                <span>PHP</span>
+                                <span>MySQL</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-tag">E-Learning</div>
+                        <h3 class="card-title">Edukazie</h3>
+                        <p class="card-desc">Aplikasi Learning Management System (LMS) untuk sekolah, mendukung
+                            manajemen materi pembelajaran, tugas, dan ujian dengan performa tinggi untuk akses
+                            bersamaan.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span>Laravel</span>
+                                <span>Golang</span>
+                                <span>PostgreSQL</span>
+                                <span>Redis</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card reveal">
+                    <div class="card-content">
+                        <div class="card-tag">Mobile Web</div>
+                        <h3 class="card-title">Aplikasi Buku Menu</h3>
+                        <p class="card-desc">Aplikasi buku menu digital untuk coffee shop yang memudahkan pelanggan
+                            memilih pesanan secara interaktif, terintegrasi dengan sistem backend yang cepat.</p>
+                        <div class="card-footer">
+                            <div class="tech-stack">
+                                <span>React Expo</span>
+                                <span>Golang</span>
+                                <span>JavaScript</span>
+                                <span>REST API</span>
+                            </div>
+                            <a href="#" class="project-link">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                    <polyline points="15 3 21 3 21 9"></polyline>
+                                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container footer-content">
+            <div class="footer-logo">JIDAN.</div>
+            <div class="social-links">
+                <a href="#" class="social-icon" aria-label="GitHub">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path
+                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
+                        </path>
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/in/jidan-ainul-mutaqin" class="social-icon" aria-label="LinkedIn">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                        <rect x="2" y="9" width="4" height="12"></rect>
+                        <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                </a>
+                <a href="https://www.instagram.com/jidan.am/" class="social-icon" aria-label="Instagram">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                    </svg>
+                </a>
+            </div>
+            <p class="copyright">&copy; 2026 JIDAN. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Full Screen View">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

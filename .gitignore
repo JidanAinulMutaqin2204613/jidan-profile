@@ -1,0 +1,15 @@
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+
+# Model/Agent files
+.antigravity/
+.gemini/
+implementation_plan.md
+task.md
+walkthrough.md
